@@ -115,7 +115,7 @@ Employee-Salary-Predictor/
 📌HOW TO RUN LOCALLLY
 
 #step 1: clone this repo
-git clone https://github.com/YourUsername/Employee-Salary-Predictor.git
+git clone https://github.com/Tasbiyahuda004/Employee-Salary-Predictor.git
 cd Employee-Salary-Predictor
 
 #ste 2: create virtual environment(optional)
