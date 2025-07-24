@@ -4,9 +4,11 @@ This project aims to build an intelligent system that accurately predicts employ
 Using machine learning algorithms, the model learns from real-world datasets to estimate salaries and uncover patterns behind compensation.
 The system helps job seekers understand their market value and supports HR teams in making data-driven decisions.
 
+
 📌OVERVIEW
 
 Employee Salary Predictor is a machine learning-based web application that intelligently predicts the expected salary of an employee based on multiple input features such as job title, experience, company, location, and more. The project is designed to assist HR professionals, recruiters, job seekers, and businesses in estimating appropriate compensation benchmarks for different roles. It uses a clean and user-friendly Streamlit interface to take user input, processes it through a trained regression model, and outputs a predicted salary with performance metrics and data visualizations. This tool is a practical example of how machine learning and web apps can be combined to create impactful real-world solutions.
+
 
 📁PROJECT STRUCTURE(folder structure)
 Employee-Salary-Predictor/
@@ -28,6 +30,7 @@ Employee-Salary-Predictor/
 
 └── assets/                # (Optional) Folder for charts, screenshots, or supporting files
 
+
 📌FEATURES
 
 🔹Predicts salary based on job-specific details.
@@ -42,6 +45,7 @@ Employee-Salary-Predictor/
 
 🔹Built with Streamlit for easy web interface.
 
+
 📌SYSTEM REQUIREMENTS
 
 🔹OS: Windows / macOS / Linux
@@ -51,6 +55,7 @@ Employee-Salary-Predictor/
 🔹RAM: Minimum 4 GB (8 GB recommended)
 
 🔹Internet: Required for installation and app hosting
+
 
 📌KEY LIBRARIES USED
 
@@ -66,6 +71,7 @@ Employee-Salary-Predictor/
 
 🔹matplotlib, seaborn – Visualization
 
+
 📌ML MODEL & PIPELINE
 
 🔹Regression model used: RandomForestRegressor
@@ -76,6 +82,7 @@ Employee-Salary-Predictor/
 
 🔹Final model saved as model.joblib for predictions
 
+
 📌VISUALIZATION & EXPLAINABILITY
 
 🔹Shows bar charts and prediction comparisons
@@ -83,6 +90,7 @@ Employee-Salary-Predictor/
 🔹Visual output helps understand model performance
 
 🔹Optional: Add feature importance graphs for interpretability
+
 
 📌WEB APP FUNCTIONALITY
 
@@ -93,6 +101,7 @@ Employee-Salary-Predictor/
 🔹Output: Predicted salary, charts, and metrics
 
 🔹Simple layout with sidebar and main prediction area
+
 
 📌HOW TO RUN LOCALLLY
 
@@ -110,6 +119,7 @@ pip install -r requirements.txt
 
 # Step 4: Run the app
 streamlit run app.py
+
 
 LICENSE
 
