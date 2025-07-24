@@ -13,12 +13,19 @@ Employee-Salary-Predictor/
 
 │
 ├── app.py                 # Streamlit web application entry point
+
 ├── model.py               # Machine learning model training and pipeline logic
+
 ├── employee_data.csv      # Dataset used for training and prediction
+
 ├── requirements.txt       # List of required Python packages
+
 ├── README.md              # Project documentation
+
 ├── .gitignore             # Files and folders to ignore in Git
+
 ├── __pycache__/           # Python cache files (can be ignored)
+
 └── assets/                # (Optional) Folder for charts, screenshots, or supporting files
 
 📌FEATURES
@@ -38,37 +45,53 @@ Employee-Salary-Predictor/
 📌SYSTEM REQUIREMENTS
 
 🔹OS: Windows / macOS / Linux
+
 🔹Python: Version 3.8 or higher
+
 🔹RAM: Minimum 4 GB (8 GB recommended)
+
 🔹Internet: Required for installation and app hosting
 
 📌KEY LIBRARIES USED
 
 🔹pandas – Data handling
+
 🔹numpy – Numerical operations
+
 🔹scikit-learn – Machine learning
+
 🔹joblib – Model serialization
+
 🔹streamlit – Web app interface
+
 🔹matplotlib, seaborn – Visualization
 
 📌ML MODEL & PIPELINE
 
 🔹Regression model used: RandomForestRegressor
+
 🔹Steps include encoding, scaling, and splitting dataset
+
 🔹Model evaluated using R² score, MAE, and MSE
+
 🔹Final model saved as model.joblib for predictions
 
 📌VISUALIZATION & EXPLAINABILITY
 
 🔹Shows bar charts and prediction comparisons
+
 🔹Visual output helps understand model performance
+
 🔹Optional: Add feature importance graphs for interpretability
 
 📌WEB APP FUNCTIONALITY
 
 🔹Inputs: Name, Company, Job Title, Experience, Location, etc.
+
 🔹Button to predict salary in real-time
+
 🔹Output: Predicted salary, charts, and metrics
+
 🔹Simple layout with sidebar and main prediction area
 
 📌HOW TO RUN LOCALLLY
