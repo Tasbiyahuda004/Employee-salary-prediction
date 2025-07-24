@@ -10,6 +10,7 @@ Employee Salary Predictor is a machine learning-based web application that intel
 
 📁PROJECT STRUCTURE(folder structure)
 Employee-Salary-Predictor/
+
 │
 ├── app.py                 # Streamlit web application entry point
 ├── model.py               # Machine learning model training and pipeline logic
@@ -23,10 +24,15 @@ Employee-Salary-Predictor/
 📌FEATURES
 
 🔹Predicts salary based on job-specific details.
+
 🔹Input fields for name, job title, experience, company, and more.
+
 🔹Real-time predictions with user-friendly UI.
+
 🔹Displays performance metrics: R² Score, MAE, MSE
+
 🔹Includes charts for better visualization.
+
 🔹Built with Streamlit for easy web interface.
 
 📌SYSTEM REQUIREMENTS
