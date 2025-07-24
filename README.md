@@ -114,19 +114,19 @@ Employee-Salary-Predictor/
 
 📌HOW TO RUN LOCALLLY
 
-# Step 1: Clone this repo
+#step 1: clone this repo
 git clone https://github.com/YourUsername/Employee-Salary-Predictor.git
 cd Employee-Salary-Predictor
 
-# Step 2: Create virtual environment (optional)
+#ste 2: create virtual environment(optional)
 python -m venv venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 
-# Step 3: Install dependencies
+#step 3: install dependencies
 pip install -r requirements.txt
 
-# Step 4: Run the app
+#step 4: run the app
 streamlit run app.py
 
 
